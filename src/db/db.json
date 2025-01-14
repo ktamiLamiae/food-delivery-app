@@ -1,0 +1,827 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Gyro Sandwich",
+      "image": "gyro_sandwich.jpg",
+      "rating": 4.9,
+      "price": 15.00,
+      "category": "Most Popular"
+    },
+    {
+      "id": 2,
+      "name": "Enchilada",
+      "image": "enchilada.jpg",
+      "rating": 5.0,
+      "price": 25.50,
+      "category": "Most Popular"
+    },
+    {
+      "id": 3,
+      "name": "Green Beans",
+      "image": "green_beans.jpg",
+      "rating": 4.9,
+      "price": 12.00,
+      "category": "Most Popular"
+    },
+    {
+      "id": 4,
+      "name": "Pizza",
+      "image": "pizza.jpg",
+      "rating": 5.0,
+      "price": 18.50,
+      "category": "Most Popular"
+    },
+    {
+      "id": 5,
+      "name": "Chicken Pot Pie",
+      "image": "chicken_pot_pie.jpg",
+      "rating": 4.9,
+      "price": 25.00,
+      "category": "Most Popular"
+    },
+    {
+      "id": 6,
+      "name": "Green Salad",
+      "image": "green_salad.jpg",
+      "rating": 4.9,
+      "price": 15.00,
+      "category": "Most Popular"
+    },
+    {
+      "id": 7,
+      "name": "Tacos",
+      "image": "tacos.jpg",
+      "rating": 4.8,
+      "price": 10.00,
+      "category": "Other"
+    },
+    {
+      "id": 8,
+      "name": "Apple Pie",
+      "image": "apple_pie.jpg",
+      "rating": 4.9,
+      "price": 12.00,
+      "category": "Desserts"
+    },
+    {
+      "id": 9,
+      "name": "Chocolate Cake",
+      "image": "chocolate_cake.jpg",
+      "rating": 5.0,
+      "price": 18.00,
+      "category": "Desserts"
+    },
+    {
+      "id": 10,
+      "name": "Fruit Salad",
+      "image": "fruit_salad.jpg",
+      "rating": 4.8,
+      "price": 10.00,
+      "category": "Desserts"
+    },
+    {
+      "id": 11,
+      "name": "Strawberry Milkshake",
+      "image": "strawberry_milkshake.jpg",
+      "rating": 4.7,
+      "price": 8.00,
+      "category": "Beverages"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "username": "John Doe",
+      "userImage": "https://readymadeui.com/team-2.webp",
+      "rating": 5,
+      "review": "The service was amazing. I never had to wait that long for my food. The staff was friendly and attentive, and the delivery was impressively prompt.",
+      "jobTitle": "Founder of Rubik"
+    },
+    {
+      "id": 2,
+      "username": "Jane Smith",
+      "userImage": "https://readymadeui.com/team-1.webp",
+      "rating": 5,
+      "review": "Fantastic experience! The food quality was top-notch, and the delivery was super fast. Highly recommended!",
+      "jobTitle": "CEO of Foodie Inc"
+    },
+    {
+      "id": 3,
+      "username": "Alice Johnson",
+      "userImage": "https://readymadeui.com/team-4.webp",
+      "rating": 3,
+      "review": "The food was okay, but the delivery took longer than expected. I hope they improve this aspect.",
+      "jobTitle": "Food Blogger"
+    },
+    {
+      "id": 4,
+      "username": "Bob Williams",
+      "userImage": "https://readymadeui.com/team-3.webp",
+      "rating": 4,
+      "review": "The food was delicious, but the delivery was a bit slow. I was a bit disappointed.",
+      "jobTitle": "Chef"
+    },
+    {
+      "id": 5,
+      "username": "Emily Carter",
+      "userImage": "https://readymadeui.com/team-5.webp",
+      "rating": 5,
+      "review": "Absolutely loved the food! The presentation was perfect, and the flavors were incredible. Will order again for sure.",
+      "jobTitle": "Event Planner"
+    },
+    {
+      "id": 6,
+      "username": "Michael Brown",
+      "userImage": "https://readymadeui.com/team-6.webp",
+      "rating": 2,
+      "review": "The food was not as fresh as I expected, and the delivery was late. Quite disappointed with the experience.",
+      "jobTitle": "Freelance Photographer"
+    },
+    {
+      "id": 7,
+      "username": "Sophia Green",
+      "userImage": "https://thispersondoesnotexist.com/",
+      "rating": 4,
+      "review": "Great food and reasonable delivery time. The packaging could have been better though.",
+      "jobTitle": "Graphic Designer"
+    }
+  ],
+  "food_list": [
+    {
+      "id":1,
+      "name":"Greek salad",
+      "image":"food_1.jpg",
+      "price":12,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Salad",
+      "rating":2.5
+    },
+    {
+      "id":2,
+      "name":"Nicoise Salad",
+      "image":"food_2.jpg",
+      "price":18,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Salad",
+      "rating":4
+    },
+    {
+      "id":3,
+      "name":"Clover Salad",
+      "image":"food_3.jpg",
+      "price":16,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Salad",
+      "rating":4.7
+    },
+    {
+      "id":4,
+      "name":"Chicken Salad",
+      "image":"food_4.jpg",
+      "price":24,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Salad",
+      "rating":4.8
+    },
+    {
+      "id":5,
+      "name":"Chicken Tacos",
+      "image":"food_5.jpeg",
+      "price":14,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Tacos",
+      "rating":4.2
+    },
+    {
+      "id":6,
+      "name":"Peri Peri Tacos",
+      "image":"food_6.jpg",
+      "price":12,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Tacos",
+      "rating":3.9
+    },
+    {
+      "id":7,
+      "name":"Beef Tacos",
+      "image":"food_7.jpg",
+      "price":20,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Tacos",
+      "rating":4.4
+    },
+    {
+      "id":8,
+      "name":"Veggie Tacos",
+      "image":"food_8.jpg",
+      "price":15,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Tacos",
+      "rating":4.1
+    },
+    {
+      "id":9,
+      "name":"Chocolate Tiramisu",
+      "image":"food_9.jpg",
+      "price":22,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Desserts",
+      "rating":4.3
+    },
+    {
+      "id":10,
+      "name":"Fruit Tiramisu",
+      "image":"food_11.jpg",
+      "price":10,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Desserts",
+      "rating":4.2
+    },
+    {
+      "id":11,
+      "name":"Matcha Green Tea Tiramisu",
+      "image":"food_12.jpg",
+      "price":12,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Desserts",
+      "rating":4
+    },
+    {
+      "id":12,
+      "name":"Caramel Tiramisu",
+      "image":"food_13.jpg",
+      "price":15,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Desserts",
+      "rating":4.5
+    },
+    {
+      "id":13,
+      "name":"Speculoos Tiramisu",
+      "image":"food_14.jpg",
+      "price":16,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Desserts",
+      "rating":4.4
+    },
+    {
+      "id":14,
+      "name":"Vegan Tiramisu",
+      "image":"food_15.jpg",
+      "price":18,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Desserts",
+      "rating":4.1
+    },
+    {
+      "id":15,
+      "name":"Chicken Sandwich",
+      "image":"food_16.jpg",
+      "price":12,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Sandwich",
+      "rating":4.5
+    },
+    {
+      "id":16,
+      "name":"Vegan Sandwich",
+      "image":"food_17.jpg",
+      "price":18,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Sandwich",
+      "rating":4.1
+    },
+    {
+      "id":17,
+      "name":"Beef Sandwich",
+      "image":"food_18.jpg",
+      "price":16,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Sandwich",
+      "rating":4.7
+    },
+    {
+      "id":18,
+      "name":"Tuna Sandwich",
+      "image":"food_19.jpg",
+      "price":24,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Sandwich",
+      "rating":3.8
+    },
+    {
+      "id":19,
+      "name":"Cup Cake - Vanilla",
+      "image":"food_20.jpg",
+      "price":14,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Cake",
+      "rating":4.6
+    },
+    {
+      "id":20,
+      "name":"Cup Cake - Caramel",
+      "image":"food_21.jpg",
+      "price":14,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Cake",
+      "rating":4.6
+    },
+    {
+      "id":21,
+      "name":"Cup Cake - Chocolate",
+      "image":"food_22.jpg",
+      "price":14,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Cake",
+      "rating":4.6
+    },
+    {
+      "id":22,
+      "name":"Cup Cake - Strawberry",
+      "image":"food_23.jpg",
+      "price":14,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Cake",
+      "rating":4.6
+    },
+    {
+      "id":23,
+      "name":"Cup Cake - Lemon",
+      "image":"food_31.jpg",
+      "price":14,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Cake",
+      "rating":4.6
+    },
+    {
+      "id":24,
+      "name":"Garlic Mushroom",
+      "image":"food_24.jpg",
+      "price":14,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Pure Veg",
+      "rating":4.1
+    },
+    {
+      "id":25,
+      "name":"Fried Cauliflower",
+      "image":"food_25.jpg",
+      "price":22,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Pure Veg",
+      "rating":4.2
+    },
+    {
+      "id":26,
+      "name":"Mix Veg Pulao",
+      "image":"food_26.jpg",
+      "price":10,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Pure Veg",
+      "rating":4
+    },
+    {
+      "id":27,
+      "name":"Rice Zucchini",
+      "image":"food_27.jpg",
+      "price":12,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Pure Veg",
+      "rating":4.3
+    },
+    {
+      "id":28,
+      "name":"Cheese Pasta",
+      "image":"food_28.jpg",
+      "price":12,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Pasta",
+      "rating":4.5
+    },
+    {
+      "id":29,
+      "name":"Tomato Pasta",
+      "image":"food_29.jpg",
+      "price":18,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Pasta",
+      "rating":4.2
+    },
+    {
+      "id":30,
+      "name":"Creamy Mushroom Pasta",
+      "image":"food_30.jpg",
+      "price":16,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Pasta",
+      "rating":4.6
+    },
+    {
+      "id":31,
+      "name":"bolognese pasta",
+      "image":"food_32.jpg",
+      "price":16,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Pasta",
+      "rating":4.6
+    },
+    {
+      "id":32,
+      "name":"seafood pasta",
+      "image":"food_33.jpg",
+      "price":16,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Pasta",
+      "rating":4.6
+    },
+    {
+      "id":33,
+      "name":"Spinach and Ricotta Pasta",
+      "image":"food_34.jpg",
+      "price":16,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Pasta",
+      "rating":4.6
+    },
+    {
+      "id":34,
+      "name":"pesto pasta",
+      "image":"food_35.jpg",
+      "price":16,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Pasta",
+      "rating":4.6
+    },
+    {
+      "id":35,
+      "name":"Green salad",
+      "image":"green_salad.jpg",
+      "price":14,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Salad",
+      "rating":4.6
+    },
+    {
+      "id":36,
+      "name":"Ripple Ice Cream",
+      "image":"food_37.png",
+      "price":14,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Desserts"
+    },
+    {
+      "id":37,
+      "name":"Fruit Ice Cream",
+      "image":"food_38.png",
+      "price":22,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Desserts"
+    },
+    {
+      "id":38,
+      "name":"Jar Ice Cream",
+      "image":"food_39.png",
+      "price":10,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Desserts"
+    },
+    {
+      "id":39,
+      "name":"Vanilla Ice Cream",
+      "image":"food_40.png",
+      "price":12,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Desserts"
+    },
+    {
+      "id":40,
+      "name":"Cheeseburger",
+      "image":"food_50.jpg",
+      "price":12,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Burger"
+    },
+    {
+      "id":41,
+      "name":"Bacon Burger",
+      "image":"food_51.jpg",
+      "price":12,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Burger"
+    },
+    {
+      "id":42,
+      "name":"Veggie Burger",
+      "image":"food_52.jpg",
+      "price":12,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Burger"
+    },
+    {
+      "id":43,
+      "name":"Chicken Burger",
+      "image":"food_53.jpg",
+      "price":12,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Burger"
+    },
+    {
+      "id":44,
+      "name":"BBQ Burger",
+      "image":"food_54.jpeg",
+      "price":12,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Burger"
+    },
+    {
+      "id":45,
+      "name":"Mushroom Swiss Burger",
+      "image":"food_55.jpg",
+      "price":12,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Burger"
+    },
+    {
+      "id":46,
+      "name":"Tex-Mex Burger ",
+      "image":"food_56.jpg",
+      "price":12,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Burger"
+    },
+    {
+      "id":47,
+      "name":"Double Burger",
+      "image":"food_57.jpg",
+      "price":12,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Burger"
+    },
+    {
+      "id":48,
+      "name":"Fish Burger",
+      "image":"food_58.jpg",
+      "price":12,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Burger"
+    },
+    {
+      "id":49,
+      "name":"BBQ Pulled Pork Burger",
+      "image":"food_59.jpg",
+      "price":12,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Burger"
+    },
+    {
+      "id":50,
+      "name":"Pizza Margherita",
+      "image":"food_41.jpeg",
+      "price":12,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Pizza"
+    },
+    {
+      "id":51,
+      "name":"Pizza Peperoni",
+      "image":"food_42.jpeg",
+      "price":12,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Pizza"
+    },
+    {
+      "id":52,
+      "name":"Pizza Hawaïenne",
+      "image":"food_43.jpg",
+      "price":12,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Pizza"
+    },
+    {
+      "id":53,
+      "name":"Pizza Quatre Fromages",
+      "image":"food_44.jpeg",
+      "price":12,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Pizza"
+    },
+    {
+      "id":54,
+      "name":"Pizza Végétarienne",
+      "image":"food_45.jpg",
+      "price":12,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Pizza"
+    },
+    {
+      "id":55,
+      "name":"Pizza bolognaise",
+      "image":"food_46.jpg",
+      "price":12,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Pizza"
+    },
+    {
+      "id":56,
+      "name":"Pizza Provençale",
+      "image":"food_65.jpg",
+      "price":12,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Pizza"
+    },
+    {
+      "id":57,
+      "name":"Pizza Calzone",
+      "image":"food_47.jpg",
+      "price":12,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Pizza"
+    },
+    {
+      "id":58,
+      "name":"Pizza quatre saison",
+      "image":"food_48.jpg",
+      "price":12,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Pizza"
+    },
+    {
+      "id":59,
+      "name":"Pizza Truffe",
+      "image":"food_49.jpg",
+      "price":12,
+      "description":"Food provides essential nutrients for overall health and well-being",
+      "category":"Pizza"
+    },
+    {
+      "id":60,
+      "name":"Aïn Atlas Eau minérale 33cl",
+      "image":"drink_50.png",
+      "price":12,
+      "description":"Drink provides essential nutrients for overall health and well-being",
+      "category":"Drinks"
+    },
+    {
+      "id":61,
+      "name":"Oulmas 25cl",
+      "image":"drink_51.png",
+      "price":12,
+      "description":"Drink provides essential nutrients for overall health and well-being",
+      "category":"Drinks"
+    },
+    {
+      "id":62,
+      "name":"Oulmas Bulles Virgine mojito 25cl",
+      "image":"drink_52.jpg",
+      "price":12,
+      "description":"Drink provides essential nutrients for overall health and well-being",
+      "category":"Drinks"
+    },
+    {
+      "id":63,
+      "name":"Oulmas Bulles Tropical 25cl",
+      "image":"drink_53.jpg",
+      "price":12,
+      "description":"Drink provides essential nutrients for overall health and well-being",
+      "category":"Drinks"
+    },
+    {
+      "id":64,
+      "name":"Oulmès Bulles Piña Colada 25cl",
+      "image":"drink_54.jpg",
+      "price":12,
+      "description":"Drink provides essential nutrients for overall health and well-being",
+      "category":"Drinks"
+    },
+    {
+      "id":65,
+      "name":"Oulmès Bulles Fruits rouges 25cl",
+      "image":"drink_55.jpg",
+      "price":12,
+      "description":"Drink provides essential nutrients for overall health and well-being",
+      "category":"Drinks"
+    },
+    {
+      "id":66,
+      "name":"Oulmès Orange 25cl",
+      "image":"drink_56.jpg",
+      "price":12,
+      "description":"Drink provides essential nutrients for overall health and well-being",
+      "category":"Drinks"
+    },
+    {
+      "id":67,
+      "name":"Coca Cole 33cl",
+      "image":"drink_57.jpg",
+      "price":12,
+      "description":"Drink provides essential nutrients for overall health and well-being",
+      "category":"Drinks"
+    },
+    {
+      "id":68,
+      "name":"Coca Cola Maxi 45CL",
+      "image":"drink_58.jpg",
+      "price":12,
+      "description":"Drink provides essential nutrients for overall health and well-being",
+      "category":"Drinks"
+    },
+    {
+      "id":69,
+      "name":"pepsi 33cl",
+      "image":"drink_59.jpg",
+      "price":12,
+      "description":"Drink provides essential nutrients for overall health and well-being",
+      "category":"Drinks"
+    },
+    {
+      "id":70,
+      "name":"Hawai Tropical 33cl",
+      "image":"drink_60.png",
+      "price":12,
+      "description":"Drink provides essential nutrients for overall health and well-being",
+      "category":"Drinks"
+    },
+    {
+      "id":71,
+      "name":"Hawai Ananas 33cl",
+      "image":"drink_61.png",
+      "price":12,
+      "description":"Drink provides essential nutrients for overall health and well-being",
+      "category":"Drinks"
+    },
+    {
+      "id":72,
+      "name":"Jus d'orange",
+      "image":"drink_62.jpg",
+      "price":12,
+      "description":"Drink provides essential nutrients for overall health and well-being",
+      "category":"Drinks"
+    },
+    {
+      "id":73,
+      "name":"Jus de pomme",
+      "image":"drink_63.png",
+      "price":12,
+      "description":"Drink provides essential nutrients for overall health and well-being",
+      "category":"Drinks"
+    },
+    {
+      "id":74,
+      "name":"Jus de raisin",
+      "image":"drink_64.jpg",
+      "price":12,
+      "description":"Drink provides essential nutrients for overall health and well-being",
+      "category":"Drinks"
+    },
+    {
+      "id":75,
+      "name":"Jus de Banane",
+      "image":"drink_65.jpg",
+      "price":12,
+      "description":"Drink provides essential nutrients for overall health and well-being",
+      "category":"Drinks"
+    },
+    {
+      "id":76,
+      "name":"Jus de fraise",
+      "image":"drink_66.jpeg",
+      "price":12,
+      "description":"Drink provides essential nutrients for overall health and well-being",
+      "category":"Drinks"
+    },
+    {
+      "id":77,
+      "name":"Jus de citron",
+      "image":"drink_67.jpeg",
+      "price":12,
+      "description":"Drink provides essential nutrients for overall health and well-being",
+      "category":"Drinks"
+    },
+    {
+      "id":78,
+      "name":"Jus d'ananasse",
+      "image":"drink_68.jpg",
+      "price":12,
+      "description":"Drink provides essential nutrients for overall health and well-being",
+      "category":"Drinks"
+    },
+    {
+      "id":79,
+      "name":"Jus de panache",
+      "image":"drink_69.jpg",
+      "price":12,
+      "description":"Drink provides essential nutrients for overall health and well-being",
+      "category":"Drinks"
+    },
+    {
+      "id":80,
+      "name":"Jus d'avocat",
+      "image":"drink_70.png",
+      "price":12,
+      "description":"Drink provides essential nutrients for overall health and well-being",
+      "category":"Drinks"
+    }
+  ]
+}

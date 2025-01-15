@@ -1,5 +1,5 @@
-import logo from "../assets/images/logo.png";
-import logo1 from "../assets/images/logo1.png";
+import logo from "../assets/images/Logo.png";
+import logo1 from "../assets/images/Logo1.png";
 import { FaFacebookF, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { useContext } from "react";

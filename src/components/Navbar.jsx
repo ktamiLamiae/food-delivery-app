@@ -1,6 +1,6 @@
 import { CiMenuBurger, CiSearch, CiShoppingBasket } from "react-icons/ci";
-import logo from '../assets/images/logo.png';
-import logo1 from '../assets/images/logo1.png';
+import logo from '../assets/images/Logo.png';
+import logo1 from '../assets/images/Logo1.png';
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { useTheme } from "../context/ThemeContext";

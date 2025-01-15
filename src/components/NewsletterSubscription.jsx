@@ -31,7 +31,7 @@ const NewsletterSubscription = () => {
                                 Email Address
                             </label>
                             <button
-                                className="absolute right-1 top-1 z-10 select-none rounded bg-blue-700 py-2 px-4 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-700/20 transition-all hover:shadow-lg hover:shadow-blue-700/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+                                className="absolute right-1 top-1 z-1 select-none rounded bg-blue-700 py-2 px-4 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-700/20 transition-all hover:shadow-lg hover:shadow-blue-700/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
                                 type="submit"
                                 data-ripple-light="true"
                             >
